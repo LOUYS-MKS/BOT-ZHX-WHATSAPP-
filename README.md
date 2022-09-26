@@ -2,7 +2,7 @@
 
 <h1 align="center">🤖 ZHX TEAM</h1>
 <div align="center">
-   <img src=""https://i.ibb.co/HFmT03c/logozhx.png"  />
+   <img src="https://telegra.ph/file/bc299b1c0ca3427d0414e.jpg"  />
   <br>
   <a href="https://youtube.com/channel/UCQVkWfHXV7q8YJEJyJajXGQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a><p>ZHXMD é um bot em desenvolvimento feito por LOUYS</p>
 </div>
