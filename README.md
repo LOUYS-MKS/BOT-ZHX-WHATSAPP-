@@ -1,29 +1,58 @@
-# COMANDOS PARA INSTALAR NA VPS LINUX
+: <center>
 
-sudo apt update && sudo apt upgrade
+<h1 align="center">🤖 ZHX TEAM</h1>
+<div align="center">
+   <img src="https://telegra.ph/file/ff1df8dfa47c64fbca798.png"  />
+  <br>
+  <a href="https://youtube.com/channel/UCQVkWfHXV7q8YJEJyJajXGQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a><p>ZHXMD é um bot em desenvolvimento feito por LOUYS</p>
+</div>
 
-sudo apt install git
 
-sudo apt install npm
 
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+## PRIMEIRAMENTE
 
-sudo apt-get install -y nodejs
+Logo depois de baixar o termux(seja por onde foi) entre nele e aplica tal comando:
 
-sudo apt install apt-transport-https ca-certificates 
+```
+termux-setup-storage
+```
+❗Esse comando vai liberar o acesso ao armazenamento ao aplicativo (caso não fucione, vá nas configurações do app e ative manualmente)
 
-sudo apt-get install -y libgbm-dev wget unzip fontconfig locales gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
 
-git clone https://github.com/LOUYS-MKS/BOT-ZHX-WHATSAPP-.git && cd BOT-ZHX-WHATSAPP- && unzip Zhxbot.zip && cd Zhxbot
+Depois de aplicar o comando citado a cima, use esse comando:
 
+```
+cd /sdcard/ZHXMD
+```
+❗Esse comando vai localizar onde o arquivo está, com certeza essa parte vai da erro para muita gente, pelo fato que muitas pessoas vai ter baixado o arquivo em outros lugares, caso isso ocorreu na sua instalação, verifique onde está seu diretorio, procure onde o arquivo da ZHXMD está e ver qual pasta ele tá se caso ele estiver na pasta errada, mova ele para sua pasta de downloads e coloque o nome da pasta exemplo; (cd/sdcard/Downloads/ZHXMD) e observe se estar em zip, caso esteja extrai o arquivo.
+
+Finalizando use o comando:
+
+```
 sh start.sh
+```
+❗O comando vai iniciar os arquivos do bot e no termux vai aparecer o qr code, use um aparelho para ler o qr code "lembrando" use o leitor de qr code do whatsapp web para conectar
 
 
-Após escanear o qr code pare o bot digitando ctrl+C e faça esses comandos 
+## 🔐 Licença MIT
 
-sudo npm install -g pm2
+Direitos autorais (c) <24/04/22> <Tobi>
 
-pm2 start index.js
+ É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
+ deste software e arquivos de documentação associados (o "Software"), para lidar
+ no Software sem restrição, incluindo, sem limitação, os direitos
+ usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender
+ cópias do Software, e para permitir que as pessoas a quem o Software é
+ equipado para tal, nas seguintes condições:
+
+ O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos no
+ todas as cópias ou partes substanciais do Software.
+
+ O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+ IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO,
+ ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO A
+ AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTROS
+ RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, ATO ILÍCITO OU DE OUTRA FORMA, DECORRENTE DE,
+ FORA OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO
+ O SOFTWARE.
