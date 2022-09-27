@@ -11,6 +11,12 @@
 
 ## PRIMEIRAMENTE
 
+
+BAIXE O BOT NO LINK 
+``
+https://drive.google.com/u/2/uc?id=1eKT97nXDbOIE7Mvp1Cq3aC54f2F9S6OA&export=download
+``
+
 Logo depois de baixar o termux(seja por onde foi) entre nele e aplica tal comando:
 
 ```
