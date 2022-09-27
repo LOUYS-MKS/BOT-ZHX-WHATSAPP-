@@ -13,9 +13,10 @@
 
 
 BAIXE O BOT NO LINK 
-``
+
 https://drive.google.com/u/2/uc?id=1eKT97nXDbOIE7Mvp1Cq3aC54f2F9S6OA&export=download
-``
+
+
 
 Logo depois de baixar o termux(seja por onde foi) entre nele e aplica tal comando:
 
@@ -24,6 +25,8 @@ termux-setup-storage
 ```
 ❗Esse comando vai liberar o acesso ao armazenamento ao aplicativo (caso não fucione, vá nas configurações do app e ative manualmente)
 
+Depois descompacte o zip para pasta /sdcard/ se for no celular
+Se for no servidor vc escolhe a pasta que quer
 
 
 Depois de aplicar o comando citado a cima, use esse comando:
@@ -39,5 +42,4 @@ Finalizando use o comando:
 sh start.sh
 ```
 ❗O comando vai iniciar os arquivos do bot e no termux vai aparecer o qr code, use um aparelho para ler o qr code "lembrando" use o leitor de qr code do whatsapp web para conectar
-
 
